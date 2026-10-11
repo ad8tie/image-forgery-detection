@@ -1,0 +1,37 @@
+# Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Node
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Datasets, generated artifacts, weights
+data/raw/**
+!data/raw/.gitkeep
+data/processed/**
+!data/processed/.gitkeep
+backend/outputs/**
+!backend/outputs/.gitkeep
+*.pt
+*.pth
+*.ckpt
+
+# Uploads and caches
+uploads/
+tmp/
+temp/
+*.log
+.cache/
+
+# Environment files
+.env
+frontend/.env
+frontend/.env.local
