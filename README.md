@@ -143,7 +143,7 @@ npm run build
 npm run build
 ```
 
-## Limits
+## Limitations
 
 - The label is an educational estimate. It is not proof of tampering.
 - A quiet ELA map (little difference after JPEG resave) is often scored Likely Authentic or Not sure, even if the photo was edited in a way that leaves no compression trace.
